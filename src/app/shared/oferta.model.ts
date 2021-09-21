@@ -1,0 +1,15 @@
+export interface Oferta {
+    id: number;
+    categoria: string;
+    titulo: string;
+    descricao_oferta: string;
+    anunciante: string;
+    valor: number;
+    destaque: boolean;
+    // imagens: Object[];
+    imagens: Array<{url: string}>
+}
+
+// type Url = {
+//     url: string;
+// }
